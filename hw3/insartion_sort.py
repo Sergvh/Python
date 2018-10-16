@@ -11,8 +11,7 @@ for i in range(1, count, 1):
     j = i - 1
     while j >= 0:
         if tmp < a[j]:
-            a[j + 1] = a[j]
-            a[j] = tmp
+            a[j + 1], a[j] = a[j], tmp
             j -= 1
         else:
             break
