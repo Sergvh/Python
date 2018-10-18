@@ -33,4 +33,4 @@ for i in range(0, count, 1):
             first = a[i]
             second = a[j]
 
-print("closest pair: " + str(first) + " and " + str(second))
+print("First closest pair: " + str(first) + " and " + str(second))
