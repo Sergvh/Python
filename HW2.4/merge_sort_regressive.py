@@ -15,7 +15,7 @@ def MergerGroup(a, left, m, right):
     t = left
     for j in range(m + 1, right + 1):
         for i in range(t, j):
-            if a[j] < a[i]:
+            if a[j] > a[i]:
                 r = a[j]
                 for k in range(j, i, -1):
                     a[k] = a[k - 1]
